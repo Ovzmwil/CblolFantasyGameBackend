@@ -7,4 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/players")
 public class PlayerResource {
 
+   @RequestMapping(method=RequestMethod.GET)
+   public List<Player> getPlayers(){
+      return null;
+   }
+   
+   @RequestMapping(method=RequestMethod.GET)
+   public Player getPlayer(){
+      return null;
+   }
 }

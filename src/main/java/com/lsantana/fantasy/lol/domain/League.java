@@ -54,5 +54,4 @@ public class League {
 			return false;
 		return true;
 	}
-	
 }

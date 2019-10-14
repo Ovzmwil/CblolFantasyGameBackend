@@ -23,5 +23,9 @@ public class LeagueResource {
 		
 		return list;
 	}
-	
+   
+   @RequestMapping(method=RequestMethod.GET)
+   public League getLeaget(){
+      return null;
+   }
 }
